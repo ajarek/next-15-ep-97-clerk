@@ -15,7 +15,7 @@ const Navbar = () => {
               <Link className='text-xl text-blue-700 hover:text-blue-400' href="/dashboard">Dashboard</Link>
               <Link className='text-xl text-blue-700 hover:text-blue-400' href="/profile">Profile</Link>
             </nav>
-      <div>
+      <div className='flex items-center gap-4'>
             <SignedOut>
               <SignInButton />
               <SignUpButton>
